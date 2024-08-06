@@ -7,7 +7,7 @@ type marksProps = {
 const Footer = ({ marks }: marksProps) => {
   return (
     <>
-      <Score marks={marks.toFixed(2)} />
+      <Score marks={marks} />
       <ScoreGraph marks={marks} />
     </>
   );
