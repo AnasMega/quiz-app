@@ -14,7 +14,7 @@ export default function QuizScreen() {
   const [currentStatus, setcurrentStatus] = QuestionNumber(false);
   const [answered, setAnswered] = QuestionNumber(false);
   const [score, setScore] = QuestionNumber(0);
-  const marks = (score / 20) * 100;
+  const marks = (score / 20) * 100; 
 
   const handleSubmit = (answer: string) => {
     if (currentQuestion !== allQuestions[0].length - 1) {
