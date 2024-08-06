@@ -2,8 +2,13 @@ import { ProgressBar } from "./ProgressBar"
 import QuestionLevel from "./QuestionLevel"
 import StackHeading from "./StackHeading"
 
- 
-const Header = ({score,Questions,currentQuestion}) => {
+ interface IHeaderProps{
+  score:number,
+  Questions:[],
+  currentQuestion:number
+
+ }
+const Header = ({score,Questions,currentQuestion}:IHeaderProps) => {
   return (
     <>
     <ProgressBar score={score} />

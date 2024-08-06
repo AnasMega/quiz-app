@@ -1,8 +1,8 @@
- 
-function Question({currentQuestion}) {
-  return (
-    <div>{decodeURIComponent(currentQuestion)}</div>
-  )
+type QuestionProps = {
+  currentQuestion: any;
+};
+function Question({ currentQuestion }: QuestionProps) {
+  return <div>{decodeURIComponent(currentQuestion)}</div>;
 }
 
-export default Question
+export default Question;

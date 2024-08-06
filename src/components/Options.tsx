@@ -1,6 +1,11 @@
 
+type OptionsProps={
+  questions:any,
+  answered:boolean,
+  handleSubmit:()=>void
 
-const Options = ({questions,answered,handleSubmit }) => {
+}
+const Options = ({questions,answered,handleSubmit }:OptionsProps) => {
   return (
     <div className=" flex  space-x-12">
     {questions.map(
