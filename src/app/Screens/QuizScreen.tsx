@@ -51,7 +51,7 @@ export default function QuizScreen() {
       setShowRemark(true);
     }
   };
-
+ 
   const handleNextQuestion = () => {
     setAnswered(false);
     if (currentStatus) {
