@@ -11,9 +11,9 @@ function ScoreGraph({ marks }: INumberProps) {
             ? "bg-red-400"
             : marks >= 30 && marks < 50
             ? "bg-yellow-400"
-            : marks > 60
+            : marks >= 60
             ? "bg-green-400"
-            : "bg-gray-300"
+            : "bg-yellow-600"
         } `}
       ></span>
     </div>

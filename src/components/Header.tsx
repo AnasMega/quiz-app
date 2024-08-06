@@ -11,11 +11,11 @@ import StackHeading from "./StackHeading"
 const Header = ({score,Questions,currentQuestion}:any) => {
   return (
     <>
-    <ProgressBar score={score} />
+    <ProgressBar score={currentQuestion} />
     <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
       <div className=" flex flex-col">
         <StackHeading
-          Questions={Questions}
+          Questions={Questions}f
           currentQuestion={currentQuestion}
         />
 
