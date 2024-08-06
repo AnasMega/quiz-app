@@ -1,10 +1,5 @@
 
-// type OptionsProps={
-//   questions:any,
-//   answered:boolean,
-//   handleSubmit:()=>void
 
-// }
 const Options = ({questions,answered,handleSubmit }:any) => {
   return (
     <div className=" flex  space-x-12">
