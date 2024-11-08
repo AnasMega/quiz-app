@@ -9,3 +9,4 @@ export const ProgressBar = ({ score }: scoreProps) => {
     </div>
   );
 };
+ 
