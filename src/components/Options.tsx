@@ -1,10 +1,7 @@
-
-
-const Options = ({questions,answered,handleSubmit }:any) => {
+const Options = ({ questions, answered, handleSubmit }: any) => {
   return (
     <div className=" flex  space-x-12">
-    {questions.map(
-      (data: string, index: number) => (
+      {questions.map((data: string, index: number) => (
         <button
           key={index}
           disabled={answered}
@@ -13,10 +10,9 @@ const Options = ({questions,answered,handleSubmit }:any) => {
         >
           {decodeURIComponent(data)}
         </button>
-      )
-    )}
-  </div>
-  )
-}
+      ))}
+    </div>
+  );
+};
 
-export default Options
+export default Options;

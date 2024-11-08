@@ -9,7 +9,7 @@ const Header = ({score,Questions,currentQuestion}:any) => {
     <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
       <div className=" flex flex-col">
         <StackHeading
-          Questions={Questions}f
+          Questions={Questions}
           currentQuestion={currentQuestion}
         />
 
